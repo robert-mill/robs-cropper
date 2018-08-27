@@ -3,5 +3,11 @@
   "description": "a cropperjs application",
   "require": {
 
+  },
+  "autoload": {
+    "psr-4": {
+      "orbert-mill\\crop-master2\\": ""
+    }
   }
+
 }
