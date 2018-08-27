@@ -4,6 +4,12 @@
   "require": {
 
   },
+  "authors": [
+        {
+            "name": "Robert Mill",
+            "email": "robert@robertmill.co.uk"
+        }
+    ],
   "autoload": {
     "psr-4": {
       "robert-mill\\robs-cropper\\":  "0.1"
