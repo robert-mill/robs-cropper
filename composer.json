@@ -6,7 +6,7 @@
   },
   "autoload": {
     "psr-4": {
-      "orbert-mill\\crop-master2\\":  "dev-master",
+      "orbert-mill\\crop-master2\\":  "dev",
     }
   }
 
