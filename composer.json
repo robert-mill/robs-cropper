@@ -13,7 +13,7 @@
     ],
   "autoload": {
     "psr-4": {
-      "robert-mill\\robs-cropper\\":  "0.1"
+      "robert-mill\\robs-cropper\\":  ""
     }
   },
   "minimum-stability": "stable",
