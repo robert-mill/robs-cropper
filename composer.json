@@ -9,10 +9,7 @@
       "orbert-mill\\crop-master2\\":  "0.1",
     }
   },
-  minimum-stability": "dev",
-  "repositories": [{
-    "type": "git",
-    "url": "https://github.com/robert-mill/robs-cropper"
-  }]
+  "minimum-stability": "dev",
+  
 
 }
