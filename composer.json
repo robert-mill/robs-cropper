@@ -19,7 +19,7 @@
       "robert-mill\\robs-cropper\\":  ""
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "repositories": [{
     "type": "git",
     "url": "https://github.com/robert-mill/robs-cropper"
