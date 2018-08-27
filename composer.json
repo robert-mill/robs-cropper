@@ -6,7 +6,7 @@
   },
   "autoload": {
     "psr-4": {
-      "orbert-mill\\crop-master2\\":  "0.1",
+      "robert-mill\\robs-cropper\\":  "0.1",
     }
   },
   "minimum-stability": "dev",
