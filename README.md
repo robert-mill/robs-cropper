@@ -5,3 +5,5 @@ index3.php
 passes the cropped image to upload.php which converts to jpg and moves to uploads/ directory this can be changed by editing uplods.php line 2 
 
 $target_dir = "uploads/";
+
+to compser install use : composer require robert-mill/robs-cropmaster2 dev-master
