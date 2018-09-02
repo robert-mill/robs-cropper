@@ -19,3 +19,5 @@ include files at bottom of page:
 
 not the latest versions of jquery,  and bootstrap- this is for future projects.
 
+example : upload-cropped-image-to-server.html 
+
