@@ -58,6 +58,8 @@ window.addEventListener('DOMContentLoaded', function () {
         if (files && files.length > 0) {
             file = files[0];
 
+
+
             if (URL) {
                 done(URL.createObjectURL(file));
             } else if (FileReader) {
@@ -77,7 +79,10 @@ window.addEventListener('DOMContentLoaded', function () {
         });
         cropper = new Cropper(image, {
 
-            viewMode: 3,
+            viewMode: 2,
+            height:500,
+            width:500,
+            rotatable:true,
 
         });
 
@@ -99,8 +104,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
         if (cropper) {
             canvas = cropper.getCroppedCanvas({
-                width: 500,
-                height: 300,
+                maxWidth: 500,
+                maxHeight: 500,
             });
             initialAvatarURL = avatar.src;
             avatar.src = canvas.toDataURL();
